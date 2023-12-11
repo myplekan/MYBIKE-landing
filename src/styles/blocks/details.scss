@@ -24,7 +24,7 @@
       content: "";
       display: block;
       padding-bottom: 100%;
-      
+
       @include onTablet {
         height: 187px;
         padding-bottom: 0;
@@ -42,7 +42,7 @@
     height: 100%;
     object-fit: cover;
     object-position: center;
-    transition: transform 0.5s;
+    transition: all 0.5s;
     &:hover {
       transform: scale(1.05);
       box-shadow: 1px 4px 16px rgba(232, 232, 240, 0.4);
@@ -52,7 +52,7 @@
 
   &__description {
     margin-bottom: 40px;
-    
+
     @include onTablet {
       margin-bottom: 48px;
     }
