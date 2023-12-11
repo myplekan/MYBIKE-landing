@@ -9,7 +9,7 @@
   font-size: 14px;
   line-height: 20px;
   background-color: #f8f8fa;
-  border: 1px solid transparent;
+  border: 0;
   outline: none;
 
   &::placeholder {
@@ -27,11 +27,6 @@
     font-family: inherit;
     border-radius: 16px;
     resize: none;
-    border-right: 1px solid #292929;
-  }
-
-  &--text:hover {
-    border-right: 1px solid #292929;
   }
 
   &--text::-webkit-scrollbar {

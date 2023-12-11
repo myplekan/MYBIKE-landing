@@ -16,6 +16,7 @@
     }
 
     @include onDesktop {
+      max-height: 710px;
       padding: $headerTopPaddingM 0 200px;
     }
   }

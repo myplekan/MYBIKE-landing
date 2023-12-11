@@ -137,6 +137,7 @@ p {
 }
 .icon--menu {
   background-image: url(../images/menu.svg);
+  background-size: 100%;
   transition: background-image 0.3s;
 }
 .icon--menu:hover {
@@ -150,7 +151,7 @@ p {
 }
 
 .top-action {
-  --icon-width: 18px;
+  --icon-width: 24px;
   --header-column-gap: 30px;
   display: grid;
   grid-template-columns: 1fr var(--icon-width) var(--icon-width);
@@ -159,7 +160,6 @@ p {
 }
 @media (min-width: 1260px) {
   .top-action {
-    --icon-width: 24px;
     --header-column-gap: 36px;
   }
 }
@@ -182,6 +182,7 @@ p {
 }
 @media (min-width: 1260px) {
   .header__content {
+    max-height: 710px;
     padding: 36px 0 200px;
   }
 }
@@ -829,7 +830,7 @@ p {
   font-size: 14px;
   line-height: 20px;
   background-color: #f8f8fa;
-  border: 1px solid transparent;
+  border: 0;
   outline: none;
 }
 .form-field::placeholder {
@@ -845,10 +846,6 @@ p {
   font-family: inherit;
   border-radius: 16px;
   resize: none;
-  border-right: 1px solid #292929;
-}
-.form-field--text:hover {
-  border-right: 1px solid #292929;
 }
 .form-field--text::-webkit-scrollbar {
   width: 25px;

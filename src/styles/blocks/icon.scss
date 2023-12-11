@@ -33,6 +33,7 @@
 
   &--menu {
     background-image: url(../images/menu.svg);
+    background-size: 100%;
     transition: background-image 0.3s;
     &:hover {
       background-image: url(../images/menu_hover.svg);
