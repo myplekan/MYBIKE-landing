@@ -828,6 +828,7 @@ p {
   border-radius: 40px;
   color: #292929;
   font-size: 14px;
+  font-family: inherit;
   line-height: 20px;
   background-color: #f8f8fa;
   border: 0;
